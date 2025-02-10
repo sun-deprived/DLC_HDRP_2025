@@ -24,10 +24,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.403
+    m_Value: 0.342
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.308
+    m_Value: 0.504
   roundness:
     m_OverrideState: 1
     m_Value: 1
@@ -104,16 +104,16 @@ MonoBehaviour:
     m_Value: 0.5
   contrast:
     m_OverrideState: 1
-    m_Value: 9.92
+    m_Value: 11
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.8405798, g: 0.7913849, b: 0.9811321, a: 1}
   hueShift:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: 27
+    m_Value: 16
 --- !u!114 &-1372698914334709216
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -172,19 +172,19 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.31234258
-          value: 0.30319148
-          inSlope: 1.227648
-          outSlope: 1.227648
+          time: 0.29464287
+          value: 0.25477707
+          inSlope: 0.8676193
+          outSlope: 0.8676193
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.63979846
-          value: 0.7606383
-          inSlope: 1
-          outSlope: 1
+          time: 0.6279762
+          value: 0.6560509
+          inSlope: 0.6485233
+          outSlope: 0.6485233
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: Post Process Volume Profile
+  m_Name: CabinLightingExercise
   m_EditorClassIdentifier: 
   components:
   - {fileID: 8835860542778494596}
@@ -408,13 +408,13 @@ MonoBehaviour:
   active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 0.8814033, y: 0.95077294, z: 1, w: 0}
+    m_Value: {x: 0.7687491, y: 0.93399936, z: 1, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 0.9615827, y: 1, z: 0.9659813, w: 0}
+    m_Value: {x: 0.9932193, y: 1, z: 0.8793346, w: 0}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.90457344, z: 0.9683516, w: 0.21182702}
+    m_Value: {x: 1, y: 0.8820905, z: 0.8670967, w: 0.21182702}
 --- !u!114 &8835860542778494596
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -436,10 +436,10 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.31
+    m_Value: 0.348
   scatter:
-    m_OverrideState: 0
-    m_Value: 0.7
+    m_OverrideState: 1
+    m_Value: 0.776
   tint:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
